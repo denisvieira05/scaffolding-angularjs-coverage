@@ -1,0 +1,23 @@
+{
+  "name": "scaffolding-angularjs-coverage",
+  "version": "0.0.0",
+  "homepage": "https://github.com/fromdenisvieira/scaffolding-angularjs-coverage",
+  "authors": [
+    "Denis Vieira <denisvieira05@gmail.com>"
+  ],
+  "description": "Starter for run tests in angularjs applications",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7"
+  }
+}
