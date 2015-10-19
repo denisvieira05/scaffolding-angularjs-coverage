@@ -3,9 +3,27 @@
 Run tests in AngularJS application with Karma and Jasmine.
 
 
-And we can run our tests with any of these two commands.
+## Installation
+
+    npm install
+
+
+## Start App
+
+```bash
+   cd src && http-server
 
 ```
-karma start
-npm test
+
+## Tests
+
+Based in : [AirPair : Unit Testing AngularJS Applications](https://www.airpair.com/angularjs/posts/unit-testing-angularjs-applications)
+
+```bash
+$ npm install
+$ npm test
 ```
+
+## Release History
+
+* 1.0.0 First commit

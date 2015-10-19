@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="comunica">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Cache-Control: max-age=3600, must-revalidate"/>
+    <meta name="description" content="COMUNICA">
+    <title>Comunica PRPI</title>
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="assets/images/favicon.ico"/> -->
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="COMUNICA">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="assets/img/touch_icon.png">
+
+    <link rel="stylesheet" href="./../lib/font-awesome/css/font-awesome.min.css">
+
+    <!-- Plone CSS - only for preview, will be removed in rules.xml -->
+    <link media="screen" href="assets/css/plone.css" type="text/css" rel="stylesheet">
+
+    <!-- Theme CSS - only for preview, will be removed in rules and added in CSS registry -->
+    <link media="all" href="assets/css/main.css" type="text/css" rel="stylesheet" >
+    <link media="all" href="assets/css/style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <div ng-include="'app/components/header/header.html'" id="header-bar"></div>
+
+        <div id="main" role="main">
+            <div id="plone-content">
+
+                <div id="portal-columns" class="row">
+
+                    <div ui-view></div>
+
+                </div>
+
+            </div>
+            <div class="clear"></div>
+
+            <div id="voltar-topo">
+                <a href="#header-bar">Voltar para o topo</a>
+            </div>
+        </div>
+
+        <div ng-include="'app/components/footer/footer.html'"></div>
+
+    </div>
+
+    <script src="./../lib/jquery/dist/jquery.min.js"></script>
+    <script src="./../lib/angular/angular.min.js"></script>
+    <script src="./../lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="./../lib/angular-animate/angular-animate.min.js"></script>
+
+
+    <script src="app/app.js"></script>
+    <script src="app/config.js"></script>
+    <script src="app/routes.js"></script>
+
+    <script src="app/modules/moduleName/module.js"></script>
+    <script src="app/modules/moduleName/controllers/ExampleRetrieveCtrl.js"></script>
+
+
+</body>
+</html>
